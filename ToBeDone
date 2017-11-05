@@ -1,0 +1,6 @@
+1. Zaprogramowac schematy dzialania userow
+2. Jak zaprojektowac strach ? ( wyslac wiadomosc do watku deamona (jak narazie watki nie sa deamonami
+czyli koncza swoje dzialanie ) ktory w postaci kolejki bedzie odbierac wiadomosci od mastera serwera,
+ serwer w osobnym watku  bedzie pilnowac strate uzytkownikow i wysle im wiadomosc o ewentualnym zmniejszenu lewaru )
+ Patrz przyklad: https://stackoverflow.com/questions/25904537/how-do-i-send-data-to-a-running-python-thread
+ 3. Poprawic format zapisywanego pliku, wielokrotny json kiepsko sie odczytuje
